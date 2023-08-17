@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Silverstripe]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="To validate Search Feature(failed)">
+    <classes>
+      <class name="test.SearchTest">
+        <methods>
+          <include name="verifyKeywordSearchWithCombinationOfSpeacialCharactersAndText" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="getMethodName"/>
+          <include name="setupInitial"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- test.SearchTest -->
+    </classes>
+  </test> <!-- To validate Search Feature(failed) -->
+</suite> <!-- Failed suite [Silverstripe] -->

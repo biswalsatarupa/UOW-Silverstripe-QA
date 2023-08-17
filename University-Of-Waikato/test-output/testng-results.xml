@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-28T00:58:34Z" name="Silverstripe-Quality-Assurance-Team." finished-at="2023-07-28T00:58:55Z" duration-ms="21625">
+    <groups>
+    </groups>
+    <test started-at="2023-07-28T00:58:34Z" name="To validate Search Feature" finished-at="2023-07-28T00:58:55Z" duration-ms="21625">
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:33Z" name="beforeTest" finished-at="2023-07-28T00:58:34Z" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:34Z" name="setup" finished-at="2023-07-28T00:58:35Z" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupInitial()[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:35Z" name="setupInitial" finished-at="2023-07-28T00:58:35Z" depends-on-methods="testbase.BaseTest.setup" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupInitial -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:36Z" name="getMethodName" finished-at="2023-07-28T00:58:36Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.verifySearchInSilverStripe(org.testng.ITestContext,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:36Z" name="verifySearchInSilverStripe" description="To verify the Search in Silverstripe Application" data-provider="getTestData" finished-at="2023-07-28T00:58:43Z" duration-ms="7222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Michel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInSilverStripe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:43Z" name="tearDown" finished-at="2023-07-28T00:58:44Z" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:44Z" name="getMethodName" finished-at="2023-07-28T00:58:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.verifySearchInSilverStripe(org.testng.ITestContext,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:44Z" name="verifySearchInSilverStripe" description="To verify the Search in Silverstripe Application" data-provider="getTestData" finished-at="2023-07-28T00:58:47Z" duration-ms="2960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fiona Black]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInSilverStripe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:47Z" name="tearDown" finished-at="2023-07-28T00:58:47Z" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:47Z" name="getMethodName" finished-at="2023-07-28T00:58:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.verifySearchInSilverStripe(org.testng.ITestContext,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:47Z" name="verifySearchInSilverStripe" description="To verify the Search in Silverstripe Application" data-provider="getTestData" finished-at="2023-07-28T00:58:50Z" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Satarupa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInSilverStripe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:50Z" name="tearDown" finished-at="2023-07-28T00:58:50Z" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:50Z" name="verifySearchInSilverStripe" description="To verify the Search in Silverstripe Application" data-provider="getTestData" finished-at="2023-07-28T00:58:53Z" duration-ms="2821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Monali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchInSilverStripe -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:50Z" name="getMethodName" finished-at="2023-07-28T00:58:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.verifySearchInSilverStripe(org.testng.ITestContext,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:53Z" name="tearDown" finished-at="2023-07-28T00:58:53Z" duration-ms="140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchInSilverStripe status=SUCCESS method=SearchTest.verifySearchInSilverStripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:1, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method, org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:53Z" name="getMethodName" finished-at="2023-07-28T00:58:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.SearchTest.verifyInvalidSearchInSilverstripe(org.testng.ITestContext,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidSearchInSilverstripe status=SUCCESS method=SearchTest.verifyInvalidSearchInSilverstripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:2, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodName -->
+        <test-method signature="verifyInvalidSearchInSilverstripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:2, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:53Z" name="verifyInvalidSearchInSilverstripe" description="To verify the invalid Search in Silvertstripe Application" data-provider="getTestData" finished-at="2023-07-28T00:58:55Z" duration-ms="1674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c6189d5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[No results for]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSearchInSilverstripe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:55Z" name="tearDown" finished-at="2023-07-28T00:58:55Z" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidSearchInSilverstripe status=SUCCESS method=SearchTest.verifyInvalidSearchInSilverstripe(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:2, instance:test.SearchTest@503d687a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:test.SearchTest@503d687a]" started-at="2023-07-28T00:58:55Z" name="AfterTest" finished-at="2023-07-28T00:58:55Z" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- To validate Search Feature -->
+  </suite> <!-- Silverstripe-Quality-Assurance-Team. -->
+</testng-results>
